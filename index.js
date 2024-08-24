@@ -5,8 +5,6 @@ let userID = "2aeee1cd-954a-4f69-b2c0-2de59511707b";
 const proxyIP = ['<PROXY_IP>'];
 let proxyIP = ['<PROXY_IP>'];
 let hostnames = '';
-
-
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
 }
