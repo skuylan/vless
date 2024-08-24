@@ -2,11 +2,8 @@
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
 let userID = "2aeee1cd-954a-4f69-b2c0-2de59511707b";
-let proxyIP = [
-  "cdn.xn--b6gac.eu.org",
-  "cdn-all.xn--b6gac.eu.org",
-  "workers.cloudflare.cyou",
-];
+const proxyIP = ['<PROXY_IP>'];
+let proxyIP = ['<PROXY_IP>'];
 let hostnames = '';
 
 
